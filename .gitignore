@@ -1,0 +1,15 @@
+# Virtualenv
+.venv/
+
+# Arquivos de ambiente (NÃO subir chave da IA)
+.env
+
+# Banco local
+careermap.db
+
+# Modelos grandes
+models/
+
+# Cache Python
+__pycache__/
+*.pyc
