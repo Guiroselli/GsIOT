@@ -5,7 +5,7 @@ O objetivo é construir uma **API inteligente** capaz de gerar **trilhas persona
 
 A API utiliza:
 
-- 🧠 **IA Generativa (OpenAI GPT-4o-mini)**
+- 🧠 **IA Generativa (Gemini)**
 - 🔄 **Fallback automático** caso a IA esteja indisponível ou sem créditos
 - 🗄️ **Banco SQLite** para armazenar trilhas geradas
 - ⚡ **FastAPI** para servir endpoints rápidos e documentados
@@ -55,7 +55,7 @@ A API expõe sua documentação em:
 |-----------|------------|
 | Linguagem | Python 3.11 |
 | Framework | FastAPI |
-| IA Generativa | OpenAI GPT-4o-mini |
+| IA Generativa | Gemini |
 | Banco | SQLite |
 | ORM | SQLAlchemy |
 | Servidor | Uvicorn |
@@ -87,7 +87,7 @@ CareerMap/
 
 ### 1) Clone o repositório
 ```bash
-git clone https://github.com/SEU-USUARIO/CareerMap.git
+git clone https://github.com/Guiroselli/GsIOT.git
 cd CareerMap
 ```
 
