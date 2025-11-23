@@ -1,6 +1,5 @@
 # 🧭 CareerMap – API de Geração de Trilhas de Carreira com IA
-
-Este projeto faz parte da entrega da disciplina **IoT & IA** da FIAP.  
+ 
 O objetivo é construir uma **API inteligente** capaz de gerar **trilhas personalizadas de carreira**, com base em preferências do usuário.
 
 A API utiliza:
@@ -24,7 +23,7 @@ A API recebe as preferências do usuário e gera um **plano de estudos completo*
 - carga horária total  
 - ordem dos passos  
 
-⚠️ Caso a IA da OpenAI falhe por falta de créditos ou indisponibilidade, a API usa um **plano base interno (fallback)**.
+⚠️ Caso a IA do gemini falhe por falta de créditos ou indisponibilidade, a API usa um **plano base interno (fallback)**.
 
 ---
 
@@ -154,7 +153,7 @@ GET /api/trilhas/Guilherme
 
 A API tenta primeiro usar:
 
-### 1️⃣ OpenAI GPT-4o-mini
+### 1️⃣ Gemini
 
 Se a IA retornar erro 429 (sem créditos), é ativado o fallback:
 
@@ -183,8 +182,8 @@ Tabelas:
 
 Projeto desenvolvido por:
 
-**Guilherme** 
-**Lucas Miranda**
-**Gusthvao Daniel**
+**Guilherme Roselli Rm:555873** 
+**Lucas Miranda Rm:555161**
+**Gusthvao Daniel Rm:554681**
 
 ---|
