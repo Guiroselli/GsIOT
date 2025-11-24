@@ -151,13 +151,9 @@ GET /api/trilhas/Guilherme
 
 ## 🧠 IA Usada
 
-A API tenta primeiro usar:
+A API Gemini:AIzaSyDSGZUNu0EIbCk5dch_QrPhtbm3fGs3ikQ 
 
 ### 1️⃣ Gemini
-
-Se a IA retornar erro 429 (sem créditos), é ativado o fallback:
-
-### 2️⃣ Plano local baseado em regras internas
 
 ---
 
